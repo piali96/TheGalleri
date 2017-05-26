@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Theme Made By www.w3schools.com - No Copyright -->
+  <title>Bootstrap test</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <link rel="stylesheet" href="boots.css" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+ 
+
+</head>
+<body>
+   <!-- Main jumbotron  -->
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+    <div class="jumbotron" style="background-color: #1ABC9C">
+      <div class="container">
+        <h1>Welcome to the Gallery!</h1>
+        <p>This is a sample site where you can view the images you have entered in the previous page via their url.</p>
+      </div>
+    </div>
+    <script>
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("myBtn").style.display = "block";
+    } else {
+        document.getElementById("myBtn").style.display = "none";
+    }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+    }
+    </script>
+
+
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-4">  
+        <img src="bokeh-background-1.jpg" class="img-thumbnail" alt="Cinque Terre" width="100%" height="100%">
+        <a href="www.xyz.com"><button type="button">
+        <div class="text">Know More</div></button></a>
+        </div>
+        <div class="col-sm-4">
+          <img src="bokeh-background-1.jpg" class="img-thumbnail" alt="Cinque Terre" width="100%" height="100%"> 
+        </div>
+        <div class="col-sm-4">
+          <img src="bokeh-background-1.jpg" class="img-thumbnail" alt="Cinque Terre" width="100%" height="100%"> 
+        </div> 
+      </div>
+    </div>
+    <br><br>
+    <div class="container">
+      <div class="row">
+      <div class="col-sm-4">
+          <img src="bokeh-background-1.jpg" class="img-thumbnail" alt="Cinque Terre" width="100%" height="100%"> 
+        </div>
+      <div class="col-sm-4">
+          <img src="bokeh-background-1.jpg" class="img-thumbnail" alt="Cinque Terre" width="100%" height="100%"> 
+        </div>
+      <div class="col-sm-4">
+          <img src="bokeh-background-1.jpg" class="img-thumbnail" alt="Cinque Terre" width="100%" height="100%"> 
+        </div>
+      </div>
+
+      <hr>
+
+      <footer>
+      <a href="mailto: piali96@outlook.com">Made by Piali</a>
+      </footer>
+    </div> <!-- /container -->
+    <script src="chrome-extension://gaojaekjdcfbdfiiggmklaocglaknnkd/js/jquery.min.js"></script>
+    <script src="chrome-extension://gaojaekjdcfbdfiiggmklaocglaknnkd/js/bootstrap.min.js"></script>
+  </body>
+</html>

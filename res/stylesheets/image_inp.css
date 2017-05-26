@@ -1,0 +1,282 @@
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,dl,dt,dd,ol,nav ul,nav li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}
+article, aside, details, figcaption, figure,footer, header, hgroup, menu, nav, section {display: block;}
+ol,ul{list-style:none;margin:0px;padding:0px;}
+blockquote,q{quotes:none;}
+blockquote:before,blockquote:after,q:before,q:after{content:'';content:none;}
+table{border-collapse:collapse;border-spacing:0;}
+
+
+body {   
+    font-family: simplifica; 
+    background: url(../images/back1.jpg);
+}
+
+h1 {
+    font-size:5.8em;
+    text-align: center;
+    color: #fff;
+    /*margin-bottom: 1em;*/
+    letter-spacing: 1px;
+}
+.login-form h2{
+    font-size: 2.2em;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 1.5em;
+    line-height: 0.7em;
+    font-family: simplifica;
+    letter-spacing: 2px;
+}
+/*-- main --*/
+.main {
+    padding: 0em 0 0;
+    text-align: center;
+}
+.main1 {
+    margin: 0 auto;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%; 
+    border-radius: 50%;
+    border: 5px solid #fff;
+    width: 450px;
+    height: 450px;
+    display: table;
+    vertical-align: middle;
+}
+
+.login-form {
+    background-size: cover;
+    text-align: left;
+    padding: 0 5em;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.login-form input[type="text"] {
+    outline: none;
+    font-size: 1em;
+    color: #fff;
+    padding: .6em 1em;
+    margin: 0;
+    width: 91%;
+    border: 1px solid rgb(255, 255, 255);
+    -webkit-appearance: none;
+    display: block;
+    background: transparent;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -o-border-radius: 2px;
+    -ms-border-radius: 2px;
+    border-radius: 2px;
+}
+.login-form p {
+    font-size: 1.2em;
+    color: #fff;
+    margin: 1.5em 0 .8em;
+    font-weight: 200;
+    letter-spacing: 6px;
+}
+
+.login-form input[type="submit"] {
+    font-size: 1em;
+    color: #2874A6;
+    background:#fff;
+    border: 1px solid #fff;
+    outline: none;
+    cursor: pointer;
+    padding: .6em 1em;
+    -webkit-appearance: none;
+    width: 91%;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+    border-radius: 2px; 
+    margin-top: 2em; 
+    font-family: simplifica;
+    font-size: 1.2em;
+    transition: 0.5s all ;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+}
+.login-form input[type="submit"]:hover {
+    background: transparent;
+    color: #fff;   
+} 
+.login-agileits-bottom {
+    margin-top:1.6em;
+    text-align: center; 
+}
+.login-agileits-bottom h6 {
+    font-size: 1em;
+    font-weight: 200;
+    font-family: 'Roboto Condensed', sans-serif;
+    letter-spacing: 5px;
+}
+.login-agileits-bottom h6 a {
+    color: #fff;
+    transition: 0.5s all ;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+}
+/*-- //main --*/ 
+
+.foot {
+    padding: 2.4em 0 2em;
+}
+/*-- responsive-design --*/ 
+@media(min-width:1680px){
+.main {
+    padding:5em 0; 
+}
+h1 {
+    font-size: 3.8em; 
+}
+.main1 {
+    margin: 6em auto; 
+    width: 650px;
+    height: 650px;
+}
+.foot {
+    padding: 2.4em 0 5em; 
+}
+}
+@media(max-width:800px){
+.main1 { 
+    width: 500px;
+    height: 500px; 
+}
+h1 {
+    font-size: 2.6em; 
+}
+.login-form input[type="text"]{ 
+    width: 90%; 
+}
+.login-agileits-bottom h6 { 
+    letter-spacing: 3px;
+}
+.login-form h2{
+    font-size: 2em; 
+    margin-bottom: 1.2em;
+}
+} 
+@media(max-width:640px){
+h1 {
+    font-size: 2.4em;
+}
+.login-form input[type="submit"] { 
+    margin-top: 1.5em;
+    width: 90%; 
+} 
+} 
+@media(max-width:568px){
+.main1{
+    width: 400px;
+    height: 400px;
+}
+.login-form input[type="text"],.login-form input[type="submit"] { 
+    font-size: 0.9em; 
+    padding: .5em 0.8em; 
+}
+.login-form p {
+    font-size: 0.8em; 
+    margin:1.2em 0 .8em; 
+    letter-spacing: 4px;
+}
+h1 {
+    font-size: 2.2em;
+}
+.login-form h2 {
+    font-size: 1.8em;
+    margin-bottom: 1em;
+}
+ 
+.login-agileits-bottom h6 {
+    font-size: 0.9em; 
+    letter-spacing: 3px;
+}
+}
+@media(max-width:480px){
+h1 {
+    font-size: 1.9em;
+}  
+.login-form { 
+    padding: 0 4em; 
+}
+}
+@media(max-width:414px){ 
+h1 {
+    font-size: 1.8em;
+} 
+.main {
+    padding: 3.5em 0;
+}
+.main1{
+    width: 350px;
+    height: 350px;
+    border-width: 2px;
+    margin: 1.2em auto;
+}
+.login-form h2 {
+    font-size: 1.4em;
+    margin-bottom: 1em;
+}
+.login-form p {
+    font-size: 0.75em;
+    margin: 1em 0 .2em;
+    letter-spacing: 2px;
+}
+.login-agileits-bottom {
+    margin-top: 1em; 
+}
+.login-form input[type="text"], .login-form input[type="submit"]{
+    width: 89%;
+}
+} 
+@media(max-width:384px){   
+.main1{ 
+    margin: 0 auto;
+}
+.main {
+    padding: 2em 0 1.7em;
+}
+}
+@media(max-width:320px){  
+.main {
+    padding: 1.5em 0 0;
+}
+h1 {
+    font-size: 1.6em; 
+} 
+.main1 {
+    width: 300px;
+    height: 300px; 
+}
+.login-form input[type="text"],.login-form input[type="submit"] {
+    font-size: 0.8em;
+    padding: .5em 0.8em;
+}
+.login-form p {
+    font-size: 0.7em; 
+}
+
+
+.login-agileits-bottom h6 {
+    font-size: 0.75em;
+    letter-spacing: 2px;
+}
+.login-agileits-bottom {
+    margin-top: 0.8em;
+}
+.login-form h2 {
+    font-size: 1.2em; 
+}
+.login-form {
+    padding: 0 3em;
+}
+
+}
