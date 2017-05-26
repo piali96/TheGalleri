@@ -19,6 +19,6 @@ Technologies used:
 
 To-do:
 
-1. An Native Android application replicating the idea of the web app
+1. A Native Android application replicating the idea of the web app
 2. Form Validation
 3. User integration + Login
